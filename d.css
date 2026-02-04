@@ -72,3 +72,23 @@ body{
   .hero h2{font-size:1.4rem}
   .brand h1{font-size:1rem}
 }
+
+/* Footer styles */
+.site-footer{
+  background:linear-gradient(180deg,#0b1220 0%, #0f172a 100%);
+  color:rgba(255,255,255,0.95);
+  padding:2.25rem 0 1rem;
+}
+.site-footer a{color:rgba(255,255,255,0.95);text-decoration:none}
+.footer-grid{display:flex;gap:2rem;align-items:flex-start}
+.footer-col{flex:1;min-width:180px}
+.footer-col h3{margin:0 0 0.6rem 0;font-size:1rem}
+.footer-col p,.footer-col address{color:rgba(255,255,255,0.85);line-height:1.5}
+.footer-links{list-style:none;padding:0;margin:0}
+.footer-links li{margin:0.35rem 0}
+.footer-bottom{margin-top:1rem;border-top:1px solid rgba(255,255,255,0.06);padding-top:0.75rem;text-align:center;color:rgba(255,255,255,0.6);font-size:0.9rem}
+
+@media (max-width:760px){
+  .footer-grid{flex-direction:column;gap:1rem;padding:0 1rem}
+  .site-footer{padding:1.25rem 0}
+}
